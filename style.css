@@ -45,7 +45,7 @@ p{
     justify-content: center;
     margin-top: 10px;
 }
-#button >div{
+#button > div{
     width: fit-content;
     font-size: 20px;
     padding-top: 30px;
