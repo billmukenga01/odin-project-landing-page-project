@@ -6,19 +6,36 @@
 
 a{
     text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+p{
+    display: block;
+}
+#header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#start{
+    background-image: url("images/Jabulani-Herd-Sunset-Walk-34-1880x1254.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #section{
-    background-color: blueviolet;
+    
+    
     height: 800px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 #footer{
     display: flex;
     flex-direction: column;
-    background-color: brown;
+    background-color: grey;
     height: 100px;
     justify-content: center;
     align-items: center;
@@ -30,9 +47,8 @@ a{
 }
 #button >div{
     width: fit-content;
-    border: 1px solid black;
     font-size: 20px;
-    padding: 10px;
+    padding-top: 30px;
 }
 #body{
     display: flex;
@@ -46,16 +62,35 @@ a{
 #items{
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .item{
-    height: 150px;
-    width: 300px;
-    padding: 10px;
+    height: 350px;
+    width: 500px;
+    padding: 50px;
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .item > div{
-    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+}
+
+#page-content{
+    align-self: center;
+    font-size: 50px;
+    color: white;
+}
+.one{
+    border-radius: 15px 50px
+}
+.two{
+    border-radius: 50px 50px  
+}
+.three{
+    border-radius: 50px 15px  
 }
