@@ -68,7 +68,8 @@ p{
 .item{
     height: 350px;
     width: 500px;
-    padding: 50px;
+    padding: 40px;
+    margin-left: 20px;
     border: 1px solid white;
     display: flex;
     flex-direction: column;
